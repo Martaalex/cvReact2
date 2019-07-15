@@ -1,0 +1,54 @@
+.Main {
+  display: flex;
+  padding: 0 30px 100px;
+
+  &--section {
+    flex: 1;
+    min-width: 280px;
+    box-sizing: border-box;
+    padding: 20px;
+
+    &-profile {
+      color: #f571b6;
+    }
+
+    &-contacts {
+      li {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+
+        a,
+        span {
+          color: #f571b6;
+        }
+
+        a:hover {
+          color: #e2519c;
+        }
+      }
+    }
+
+    &-skills {
+      color: #f571b6;
+
+      li {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+      }
+    }
+
+    &-education,
+    &-experience {
+      li {
+        padding-bottom: 20px;
+
+        p {
+          &:first-child {
+            color: #f571b6;
+            padding-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}

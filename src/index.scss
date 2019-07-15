@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('./app/style/utils.scss');
+
+body {
+  font-size: calc(16px + (24 - 16) * (100vw - 950px) / (1000 - 200));
+  line-height: calc(16px + (24 - 16) * (100vw - 700px) / (1000 - 100));
+  font-family: 'Roboto', sans-serif;
+  background: #333333;
+  color: #fff;
+}
